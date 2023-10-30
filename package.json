@@ -1,0 +1,26 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Proyecto JS2",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anabellg/proyectojs2.git"
+  },
+  "author": "Anabel Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anabellg/proyectojs2/issues"
+  },
+  "homepage": "https://github.com/anabellg/proyectojs2#readme",
+  "dependencies": {
+    "parcel": "^2.9.3"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3"
+  }
+}

@@ -21,12 +21,12 @@
       <header class="header">
         <img src="src/img/logo.png" alt="Logo" class="header__logo" />
         <form class="search">
-          <input
+          <input id="search_input"
             type="text"
             class="search__field"
             placeholder="Search over 1,000,000 recipes..."
           />
-          <button class="btn search__btn">
+          <button id ="btn_search" class="btn search__btn" type="button">
             <svg class="search__icon">
               <use href="src/img/icons.svg#icon-search"></use>
             </svg>
@@ -85,12 +85,14 @@
       </header>
 
       <div class="search-results">
-        <ul class="results">
-          <!-- 
-          <li class="preview">
-            <a class="preview__link preview__link--active" href="#23456">
+        <ul id = "result_links" class="results">
+          <a href="#5ed6604591c37cdc054bc886">Recipe1</a>
+          <a href="#5ed6604591c37cdc054bccde">Recipe2</a>
+          <!-- COMENTAR  -->
+          <!-- <li class="preview">
+            <a class="preview__link preview__link--active" href="#5ed6604691c37cdc054bd0ec">
               <figure class="preview__fig">
-                <img src="src/img/test-1.jpg" alt="Test" />
+                <img src="src/img/test-1.jpg" alt="Test" /> 
               </figure>
               <div class="preview__data">
                 <h4 class="preview__title">Pasta with Tomato Cream ...</h4>
@@ -103,7 +105,23 @@
               </div>
             </a>
           </li>
-           -->
+          <li class="preview">
+            <a class="preview__link preview__link--active" href="#5ed6604591c37cdc054bcc4b">
+              <figure class="preview__fig">
+                <img src="src/img/test-1.jpg" alt="Test" /> 
+              </figure>
+              <div class="preview__data">
+                <h4 class="preview__title">Pasta Carbonara</h4>
+                <p class="preview__publisher">The Pioneer Woman</p>
+                <div class="preview__user-generated">
+                  <svg>
+                    <use href="src/img/icons.svg#icon-user"></use>
+                  </svg>
+                </div>
+              </div>
+            </a>
+          </li> -->
+           <!-- COMENTAR FINAL -->
         </ul>
 
         <div class="pagination">
@@ -166,34 +184,11 @@
           </h1>
         </figure>
 
-        <div class="recipe__details">
-          <div class="recipe__info">
-            <svg class="recipe__info-icon">
-              <use href="src/img/icons.svg#icon-clock"></use>
-            </svg>
-            <span class="recipe__info-data recipe__info-data--minutes">45</span>
-            <span class="recipe__info-text">minutes</span>
-          </div>
-          <div class="recipe__info">
-            <svg class="recipe__info-icon">
-              <use href="src/img/icons.svg#icon-users"></use>
-            </svg>
-            <span class="recipe__info-data recipe__info-data--people">4</span>
-            <span class="recipe__info-text">servings</span>
+        //AQUI ESTABA EL QUE SE CORTO
+      -->
 
-            <div class="recipe__info-buttons">
-              <button class="btn--tiny btn--increase-servings">
-                <svg>
-                  <use href="src/img/icons.svg#icon-minus-circle"></use>
-                </svg>
-              </button>
-              <button class="btn--tiny btn--increase-servings">
-                <svg>
-                  <use href="src/img/icons.svg#icon-plus-circle"></use>
-                </svg>
-              </button>
-            </div>
-          </div>
+        
+          <!--
 
           <div class="recipe__user-generated">
             <svg>
